@@ -2,7 +2,7 @@ version: '2'
 services:
   dnscrypt-proxy:
     restart: unless-stopped
-    image: bepsoccer/dnscrypt-proxy-2
+    image: bepsoccer/dnscrypt-proxy-2-docker
     container_name: dnscrypt-proxy
     ports:
       - "53:53/udp"
